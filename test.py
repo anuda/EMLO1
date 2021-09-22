@@ -2,8 +2,9 @@ import pytest
 import pandas as pd
 import os
 
-def check_existance(filename):
+def check_existance():
     files = os.listdir()
-    assert filename not in files
+    print(files)
+    assert 'data' not in files
 
 
