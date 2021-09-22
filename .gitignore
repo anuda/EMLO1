@@ -1,3 +1,5 @@
 .env
 /data
 /model.h5
+/.pytest_cache
+__pycache__
