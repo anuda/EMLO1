@@ -8,3 +8,5 @@ def check_existance():
     assert 'data' not in files
 
 
+def check_sum():
+    assert(2+3==5)
